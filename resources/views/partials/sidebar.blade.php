@@ -17,8 +17,8 @@
       </a>
     </li>
     <li>
-      <a href="/Nutrient_Intake" class="{{ request()->Is('Nutrient_Intake*') ? 'active' : '' }}">
-        <i class="bx bx-list-ul"></i>
+      <a href="/Nutrient" class="{{ request()->Is('Nutrient*') ? 'active' : '' }}">
+        <i class="bx bx-dish"></i>
         <span class="links_name">Nutrient Intake</span>
       </a>
     </li>
